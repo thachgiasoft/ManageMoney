@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23041A6F2FD4DC157E5EA6D0 /* Pods_ManageMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FED10068CD0BAB73E74AE1 /* Pods_ManageMoney.framework */; };
+		501736AF23CCC02200F9CCB9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 501736AE23CCC02100F9CCB9 /* GoogleService-Info.plist */; };
+		501F53EB23DF43CA00AABA23 /* CirlceImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501F53EA23DF43CA00AABA23 /* CirlceImage.swift */; };
+		501F53ED23DF43D900AABA23 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501F53EC23DF43D900AABA23 /* MapView.swift */; };
+		501F53EF23DF43E600AABA23 /* SocialMediaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501F53EE23DF43E600AABA23 /* SocialMediaListView.swift */; };
+		501F53F123DF43F500AABA23 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501F53F023DF43F500AABA23 /* UserProfileView.swift */; };
+		501F53F323DF516500AABA23 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501F53F223DF516500AABA23 /* UserInfo.swift */; };
+		501F53F523DF63BC00AABA23 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501F53F423DF63BC00AABA23 /* LocationManager.swift */; };
+		5040C1DF23E0994C00B62247 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040C1DE23E0994C00B62247 /* ChartView.swift */; };
+		5040C1E223E0999A00B62247 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5040C1E123E0999A00B62247 /* SwiftPackageProductDependency */; };
+		505777DE23CCC6D2003A1B58 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505777DD23CCC6D2003A1B58 /* SessionStore.swift */; };
+		505777E223CCD156003A1B58 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505777E123CCD156003A1B58 /* AuthView.swift */; };
+		506120F823EB1223000A0EF6 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 506120F723EB1223000A0EF6 /* SwiftPackageProductDependency */; };
+		507EFF3823D89A4B001107CF /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507EFF3723D89A4B001107CF /* SignUpView.swift */; };
+		5095A7A523CE16720018D251 /* LogInCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5095A7A423CE16720018D251 /* LogInCheck.swift */; };
+		50AC195C23C790A7006B106B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC195B23C790A7006B106B /* AppDelegate.swift */; };
+		50AC195E23C790A7006B106B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC195D23C790A7006B106B /* SceneDelegate.swift */; };
+		50AC196023C790A7006B106B /* SplitMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC195F23C790A7006B106B /* SplitMoneyView.swift */; };
+		50AC196223C790AA006B106B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AC196123C790AA006B106B /* Assets.xcassets */; };
+		50AC196523C790AB006B106B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AC196423C790AB006B106B /* Preview Assets.xcassets */; };
+		50AC196823C790AB006B106B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AC196623C790AB006B106B /* LaunchScreen.storyboard */; };
+		50AC197323C790AB006B106B /* ManageMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC197223C790AB006B106B /* ManageMoneyTests.swift */; };
+		50B7D12B23D35B6B0027BD02 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7D12A23D35B6B0027BD02 /* TabBarView.swift */; };
+		50CD84EF23E57C1E00D4BD52 /* AddEarningsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD84EE23E57C1E00D4BD52 /* AddEarningsView.swift */; };
+		50CD84F123E57D2B00D4BD52 /* EarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD84F023E57D2B00D4BD52 /* EarningView.swift */; };
+		50D8126123D3237B009905C7 /* AddSpendingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8126023D3237B009905C7 /* AddSpendingsView.swift */; };
+		50D8AE2323EEF9A90002EBF2 /* MonthAverageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8AE2223EEF9A90002EBF2 /* MonthAverageView.swift */; };
+		50D8AE2523EF16150002EBF2 /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8AE2423EF16150002EBF2 /* SecondTabView.swift */; };
+		50DAD4B723E8ACDF00E66634 /* KeyboardResponsive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAD4B623E8ACDF00E66634 /* KeyboardResponsive.swift */; };
+		50F6AFF423D319F300A1CE64 /* SpendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6AFF323D319F300A1CE64 /* SpendingView.swift */; };
+		C7EC9EAA35CB22440979AC93 /* Pods_ManageMoneyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE45B388FD4C5B99AAE16E6 /* Pods_ManageMoneyTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50AC196F23C790AB006B106B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50AC195023C790A7006B106B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50AC195723C790A7006B106B;
+			remoteInfo = ManageMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C5C8C2C99EEFF81788E9796 /* Pods-ManageMoneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManageMoneyTests.debug.xcconfig"; path = "Target Support Files/Pods-ManageMoneyTests/Pods-ManageMoneyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		501736AE23CCC02100F9CCB9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		501F53EA23DF43CA00AABA23 /* CirlceImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirlceImage.swift; sourceTree = "<group>"; };
+		501F53EC23DF43D900AABA23 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		501F53EE23DF43E600AABA23 /* SocialMediaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaListView.swift; sourceTree = "<group>"; };
+		501F53F023DF43F500AABA23 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		501F53F223DF516500AABA23 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		501F53F423DF63BC00AABA23 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		5040C1DE23E0994C00B62247 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		505777DD23CCC6D2003A1B58 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		505777E123CCD156003A1B58 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		507EFF3723D89A4B001107CF /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5095A7A423CE16720018D251 /* LogInCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInCheck.swift; sourceTree = "<group>"; };
+		50AC195823C790A7006B106B /* ManageMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManageMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AC195B23C790A7006B106B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50AC195D23C790A7006B106B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		50AC195F23C790A7006B106B /* SplitMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitMoneyView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		50AC196123C790AA006B106B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50AC196423C790AB006B106B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50AC196723C790AB006B106B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50AC196923C790AB006B106B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AC196E23C790AB006B106B /* ManageMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManageMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AC197223C790AB006B106B /* ManageMoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageMoneyTests.swift; sourceTree = "<group>"; };
+		50AC197423C790AB006B106B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B7D12A23D35B6B0027BD02 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		50CD84EE23E57C1E00D4BD52 /* AddEarningsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEarningsView.swift; sourceTree = "<group>"; };
+		50CD84F023E57D2B00D4BD52 /* EarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningView.swift; sourceTree = "<group>"; };
+		50D8126023D3237B009905C7 /* AddSpendingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSpendingsView.swift; sourceTree = "<group>"; };
+		50D8AE2223EEF9A90002EBF2 /* MonthAverageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthAverageView.swift; sourceTree = "<group>"; };
+		50D8AE2423EF16150002EBF2 /* SecondTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
+		50DAD4B623E8ACDF00E66634 /* KeyboardResponsive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardResponsive.swift; sourceTree = "<group>"; };
+		50F6AFF323D319F300A1CE64 /* SpendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingView.swift; sourceTree = "<group>"; };
+		6AE45B388FD4C5B99AAE16E6 /* Pods_ManageMoneyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManageMoneyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7239676F4537D437CEE5671E /* Pods-ManageMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManageMoney.release.xcconfig"; path = "Target Support Files/Pods-ManageMoney/Pods-ManageMoney.release.xcconfig"; sourceTree = "<group>"; };
+		A5FED10068CD0BAB73E74AE1 /* Pods_ManageMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManageMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF89241B61BA3A78ABA4683C /* Pods-ManageMoneyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManageMoneyTests.release.xcconfig"; path = "Target Support Files/Pods-ManageMoneyTests/Pods-ManageMoneyTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE40B04672659DFBA85E7CC4 /* Pods-ManageMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManageMoney.debug.xcconfig"; path = "Target Support Files/Pods-ManageMoney/Pods-ManageMoney.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50AC195523C790A7006B106B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506120F823EB1223000A0EF6 /* BuildFile in Frameworks */,
+				5040C1E223E0999A00B62247 /* BuildFile in Frameworks */,
+				23041A6F2FD4DC157E5EA6D0 /* Pods_ManageMoney.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AC196B23C790AB006B106B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EC9EAA35CB22440979AC93 /* Pods_ManageMoneyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50AC194F23C790A7006B106B = {
+			isa = PBXGroup;
+			children = (
+				50AC195A23C790A7006B106B /* ManageMoney */,
+				50AC197123C790AB006B106B /* ManageMoneyTests */,
+				50AC195923C790A7006B106B /* Products */,
+				F3F06151DB736B158AE6F637 /* Pods */,
+				C51CBF7F3423FED190CA5F30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50AC195923C790A7006B106B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50AC195823C790A7006B106B /* ManageMoney.app */,
+				50AC196E23C790AB006B106B /* ManageMoneyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50AC195A23C790A7006B106B /* ManageMoney */ = {
+			isa = PBXGroup;
+			children = (
+				50AC195B23C790A7006B106B /* AppDelegate.swift */,
+				505777DD23CCC6D2003A1B58 /* SessionStore.swift */,
+				501F53F223DF516500AABA23 /* UserInfo.swift */,
+				50AC195D23C790A7006B106B /* SceneDelegate.swift */,
+				50AC195F23C790A7006B106B /* SplitMoneyView.swift */,
+				50B7D12A23D35B6B0027BD02 /* TabBarView.swift */,
+				501F53EA23DF43CA00AABA23 /* CirlceImage.swift */,
+				501F53EC23DF43D900AABA23 /* MapView.swift */,
+				501F53EE23DF43E600AABA23 /* SocialMediaListView.swift */,
+				501F53F423DF63BC00AABA23 /* LocationManager.swift */,
+				501F53F023DF43F500AABA23 /* UserProfileView.swift */,
+				5040C1DE23E0994C00B62247 /* ChartView.swift */,
+				50F6AFF323D319F300A1CE64 /* SpendingView.swift */,
+				50D8126023D3237B009905C7 /* AddSpendingsView.swift */,
+				50D8AE2223EEF9A90002EBF2 /* MonthAverageView.swift */,
+				50CD84EE23E57C1E00D4BD52 /* AddEarningsView.swift */,
+				50CD84F023E57D2B00D4BD52 /* EarningView.swift */,
+				50DAD4B623E8ACDF00E66634 /* KeyboardResponsive.swift */,
+				5095A7A423CE16720018D251 /* LogInCheck.swift */,
+				505777E123CCD156003A1B58 /* AuthView.swift */,
+				50D8AE2423EF16150002EBF2 /* SecondTabView.swift */,
+				507EFF3723D89A4B001107CF /* SignUpView.swift */,
+				50AC196123C790AA006B106B /* Assets.xcassets */,
+				50AC196623C790AB006B106B /* LaunchScreen.storyboard */,
+				501736AE23CCC02100F9CCB9 /* GoogleService-Info.plist */,
+				50AC196923C790AB006B106B /* Info.plist */,
+				50AC196323C790AB006B106B /* Preview Content */,
+			);
+			path = ManageMoney;
+			sourceTree = "<group>";
+		};
+		50AC196323C790AB006B106B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50AC196423C790AB006B106B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50AC197123C790AB006B106B /* ManageMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				50AC197223C790AB006B106B /* ManageMoneyTests.swift */,
+				50AC197423C790AB006B106B /* Info.plist */,
+			);
+			path = ManageMoneyTests;
+			sourceTree = "<group>";
+		};
+		C51CBF7F3423FED190CA5F30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5FED10068CD0BAB73E74AE1 /* Pods_ManageMoney.framework */,
+				6AE45B388FD4C5B99AAE16E6 /* Pods_ManageMoneyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3F06151DB736B158AE6F637 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE40B04672659DFBA85E7CC4 /* Pods-ManageMoney.debug.xcconfig */,
+				7239676F4537D437CEE5671E /* Pods-ManageMoney.release.xcconfig */,
+				1C5C8C2C99EEFF81788E9796 /* Pods-ManageMoneyTests.debug.xcconfig */,
+				CF89241B61BA3A78ABA4683C /* Pods-ManageMoneyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50AC195723C790A7006B106B /* ManageMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AC197723C790AB006B106B /* Build configuration list for PBXNativeTarget "ManageMoney" */;
+			buildPhases = (
+				3A4CD1C27D69E736B0AD63A0 /* [CP] Check Pods Manifest.lock */,
+				50AC195423C790A7006B106B /* Sources */,
+				50AC195523C790A7006B106B /* Frameworks */,
+				50AC195623C790A7006B106B /* Resources */,
+				27B4913FAD62DA37D83DCF65 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManageMoney;
+			packageProductDependencies = (
+				5040C1E123E0999A00B62247 /* SwiftPackageProductDependency */,
+				506120F723EB1223000A0EF6 /* SwiftPackageProductDependency */,
+			);
+			productName = ManageMoney;
+			productReference = 50AC195823C790A7006B106B /* ManageMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50AC196D23C790AB006B106B /* ManageMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AC197A23C790AB006B106B /* Build configuration list for PBXNativeTarget "ManageMoneyTests" */;
+			buildPhases = (
+				89AAFC10DACF086C710F3D63 /* [CP] Check Pods Manifest.lock */,
+				50AC196A23C790AB006B106B /* Sources */,
+				50AC196B23C790AB006B106B /* Frameworks */,
+				50AC196C23C790AB006B106B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50AC197023C790AB006B106B /* PBXTargetDependency */,
+			);
+			name = ManageMoneyTests;
+			productName = ManageMoneyTests;
+			productReference = 50AC196E23C790AB006B106B /* ManageMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50AC195023C790A7006B106B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Omar Serrah";
+				TargetAttributes = {
+					50AC195723C790A7006B106B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					50AC196D23C790AB006B106B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 50AC195723C790A7006B106B;
+					};
+				};
+			};
+			buildConfigurationList = 50AC195323C790A7006B106B /* Build configuration list for PBXProject "ManageMoney" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50AC194F23C790A7006B106B;
+			packageReferences = (
+				5040C1E023E0999A00B62247 /* RemoteSwiftPackageReference */,
+				506120F623EB1223000A0EF6 /* RemoteSwiftPackageReference */,
+			);
+			productRefGroup = 50AC195923C790A7006B106B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50AC195723C790A7006B106B /* ManageMoney */,
+				50AC196D23C790AB006B106B /* ManageMoneyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50AC195623C790A7006B106B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AC196823C790AB006B106B /* LaunchScreen.storyboard in Resources */,
+				501736AF23CCC02200F9CCB9 /* GoogleService-Info.plist in Resources */,
+				50AC196523C790AB006B106B /* Preview Assets.xcassets in Resources */,
+				50AC196223C790AA006B106B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AC196C23C790AB006B106B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27B4913FAD62DA37D83DCF65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManageMoney/Pods-ManageMoney-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManageMoney/Pods-ManageMoney-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ManageMoney/Pods-ManageMoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A4CD1C27D69E736B0AD63A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManageMoney-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89AAFC10DACF086C710F3D63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManageMoneyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50AC195423C790A7006B106B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505777E223CCD156003A1B58 /* AuthView.swift in Sources */,
+				50D8AE2323EEF9A90002EBF2 /* MonthAverageView.swift in Sources */,
+				501F53EB23DF43CA00AABA23 /* CirlceImage.swift in Sources */,
+				50B7D12B23D35B6B0027BD02 /* TabBarView.swift in Sources */,
+				50AC195C23C790A7006B106B /* AppDelegate.swift in Sources */,
+				5040C1DF23E0994C00B62247 /* ChartView.swift in Sources */,
+				501F53F523DF63BC00AABA23 /* LocationManager.swift in Sources */,
+				501F53ED23DF43D900AABA23 /* MapView.swift in Sources */,
+				501F53F323DF516500AABA23 /* UserInfo.swift in Sources */,
+				5095A7A523CE16720018D251 /* LogInCheck.swift in Sources */,
+				507EFF3823D89A4B001107CF /* SignUpView.swift in Sources */,
+				505777DE23CCC6D2003A1B58 /* SessionStore.swift in Sources */,
+				50D8126123D3237B009905C7 /* AddSpendingsView.swift in Sources */,
+				50AC195E23C790A7006B106B /* SceneDelegate.swift in Sources */,
+				501F53F123DF43F500AABA23 /* UserProfileView.swift in Sources */,
+				50DAD4B723E8ACDF00E66634 /* KeyboardResponsive.swift in Sources */,
+				50AC196023C790A7006B106B /* SplitMoneyView.swift in Sources */,
+				501F53EF23DF43E600AABA23 /* SocialMediaListView.swift in Sources */,
+				50CD84F123E57D2B00D4BD52 /* EarningView.swift in Sources */,
+				50D8AE2523EF16150002EBF2 /* SecondTabView.swift in Sources */,
+				50CD84EF23E57C1E00D4BD52 /* AddEarningsView.swift in Sources */,
+				50F6AFF423D319F300A1CE64 /* SpendingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AC196A23C790AB006B106B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AC197323C790AB006B106B /* ManageMoneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50AC197023C790AB006B106B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50AC195723C790A7006B106B /* ManageMoney */;
+			targetProxy = 50AC196F23C790AB006B106B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50AC196623C790AB006B106B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50AC196723C790AB006B106B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50AC197523C790AB006B106B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50AC197623C790AB006B106B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50AC197823C790AB006B106B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE40B04672659DFBA85E7CC4 /* Pods-ManageMoney.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ManageMoney/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NS73MJWNS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ManageMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ConfirmedApp.ManageMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50AC197923C790AB006B106B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7239676F4537D437CEE5671E /* Pods-ManageMoney.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ManageMoney/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NS73MJWNS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ManageMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ConfirmedApp.ManageMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50AC197B23C790AB006B106B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5C8C2C99EEFF81788E9796 /* Pods-ManageMoneyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NS73MJWNS;
+				INFOPLIST_FILE = ManageMoneyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ConfirmedApp.ManageMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ManageMoney.app/ManageMoney";
+			};
+			name = Debug;
+		};
+		50AC197C23C790AB006B106B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF89241B61BA3A78ABA4683C /* Pods-ManageMoneyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NS73MJWNS;
+				INFOPLIST_FILE = ManageMoneyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ConfirmedApp.ManageMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ManageMoney.app/ManageMoney";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50AC195323C790A7006B106B /* Build configuration list for PBXProject "ManageMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AC197523C790AB006B106B /* Debug */,
+				50AC197623C790AB006B106B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50AC197723C790AB006B106B /* Build configuration list for PBXNativeTarget "ManageMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AC197823C790AB006B106B /* Debug */,
+				50AC197923C790AB006B106B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50AC197A23C790AB006B106B /* Build configuration list for PBXNativeTarget "ManageMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AC197B23C790AB006B106B /* Debug */,
+				50AC197C23C790AB006B106B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5040C1E023E0999A00B62247 /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.7;
+			};
+		};
+		506120F623EB1223000A0EF6 /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5040C1E123E0999A00B62247 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5040C1E023E0999A00B62247 /* RemoteSwiftPackageReference */;
+			productName = SwiftUICharts;
+		};
+		506120F723EB1223000A0EF6 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 506120F623EB1223000A0EF6 /* RemoteSwiftPackageReference */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 50AC195023C790A7006B106B /* Project object */;
+}
